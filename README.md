@@ -1,2 +1,2 @@
 # coderally.github.io
-CodeRally Countdown
+Xtreme Countdown

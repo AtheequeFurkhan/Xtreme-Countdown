@@ -3,21 +3,35 @@ body {
   background-size: auto;
   background-position: center; /* Center the background image */
   /*color: white; !* Adjust text color for contrast *!*/
-  background-color: black; /* Set the background to black */
+  background-color: #030933; /* Set the background to black */
   color: white; /* Set the default text color to white */
 }
 
 .logo {
   display: flex;
   justify-content: center; /* Center the logo horizontally */
-  margin-bottom: 20px; /* Space between logo and countdown timer */
+  margin-bottom: 100px; /* Space between logo and countdown timer */
 }
 
 .logo img {
-  max-width: 200px; /* Adjust the size of the logo */
+  max-width: 300px; /* Adjust the size of the logo */
   height: auto; /* Maintain aspect ratio */
+  padding-top: 30px;
 }
 
+.club {
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  margin-bottom: 100px; /* Space between logo and countdown timer */
+}
+
+.club img {
+  max-width: 500px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  padding-top: 220px;
+  padding-bottom: 0;
+  margin-bottom: 0%;
+}
 .flip-clock-label {
   font-weight: bold;
   font-size: 1.2em;
@@ -30,8 +44,8 @@ body {
 }
 
 .flip-clock-wrapper ul li a div div.inn {
-  color: #000000; /* Set the digits to white */
-  background-color: #ffffff; /* Set the background behind the digits to black */
+  color: #ffffff; /* Set the digits to white */
+  background-color: #12679b; /* Set the background behind the digits to black */
   text-shadow: none; /* Remove text shadow for clearer look */
 }
 
@@ -60,7 +74,7 @@ body {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
